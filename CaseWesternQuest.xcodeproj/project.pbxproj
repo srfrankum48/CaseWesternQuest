@@ -14,6 +14,12 @@
 		3F7BDC4B225CE56000FBCBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7BDC49225CE56000FBCBE4 /* LaunchScreen.storyboard */; };
 		3F7BDC56225CE56000FBCBE4 /* CaseWesternQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC55225CE56000FBCBE4 /* CaseWesternQuestTests.swift */; };
 		3F7BDC61225CE56100FBCBE4 /* CaseWesternQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC60225CE56100FBCBE4 /* CaseWesternQuestUITests.swift */; };
+		3F7BDC6F225CF19200FBCBE4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC6E225CF19200FBCBE4 /* MapViewController.swift */; };
+		3F7BDC71225CF90000FBCBE4 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC70225CF90000FBCBE4 /* ShopViewController.swift */; };
+		3F7BDC73225CF99600FBCBE4 /* LocationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC72225CF99600FBCBE4 /* LocationListener.swift */; };
+		3F7BDC75225CFA1500FBCBE4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC74225CFA1500FBCBE4 /* Store.swift */; };
+		3F7BDC77225CFA4500FBCBE4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC76225CFA4500FBCBE4 /* Item.swift */; };
+		3F7BDC79225CFA7800FBCBE4 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BDC78225CFA7800FBCBE4 /* Weapon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		3F7BDC5C225CE56000FBCBE4 /* CaseWesternQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaseWesternQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7BDC60225CE56100FBCBE4 /* CaseWesternQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseWesternQuestUITests.swift; sourceTree = "<group>"; };
 		3F7BDC62225CE56100FBCBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7BDC6E225CF19200FBCBE4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3F7BDC70225CF90000FBCBE4 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		3F7BDC72225CF99600FBCBE4 /* LocationListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListener.swift; sourceTree = "<group>"; };
+		3F7BDC74225CFA1500FBCBE4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3F7BDC76225CFA4500FBCBE4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3F7BDC78225CFA7800FBCBE4 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,9 @@
 		3F7BDC3F225CE55C00FBCBE4 /* CaseWesternQuest */ = {
 			isa = PBXGroup;
 			children = (
+				3F7BDC7B225CFAA700FBCBE4 /* ViewController */,
+				3F7BDC7A225CFA9000FBCBE4 /* Object Classes */,
 				3F7BDC40225CE55C00FBCBE4 /* AppDelegate.swift */,
-				3F7BDC42225CE55C00FBCBE4 /* ViewController.swift */,
 				3F7BDC44225CE55C00FBCBE4 /* Main.storyboard */,
 				3F7BDC47225CE56000FBCBE4 /* Assets.xcassets */,
 				3F7BDC49225CE56000FBCBE4 /* LaunchScreen.storyboard */,
@@ -123,6 +136,27 @@
 				3F7BDC62225CE56100FBCBE4 /* Info.plist */,
 			);
 			path = CaseWesternQuestUITests;
+			sourceTree = "<group>";
+		};
+		3F7BDC7A225CFA9000FBCBE4 /* Object Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F7BDC72225CF99600FBCBE4 /* LocationListener.swift */,
+				3F7BDC76225CFA4500FBCBE4 /* Item.swift */,
+				3F7BDC78225CFA7800FBCBE4 /* Weapon.swift */,
+				3F7BDC74225CFA1500FBCBE4 /* Store.swift */,
+			);
+			path = "Object Classes";
+			sourceTree = "<group>";
+		};
+		3F7BDC7B225CFAA700FBCBE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F7BDC6E225CF19200FBCBE4 /* MapViewController.swift */,
+				3F7BDC70225CF90000FBCBE4 /* ShopViewController.swift */,
+				3F7BDC42225CE55C00FBCBE4 /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7BDC71225CF90000FBCBE4 /* ShopViewController.swift in Sources */,
+				3F7BDC79225CFA7800FBCBE4 /* Weapon.swift in Sources */,
 				3F7BDC43225CE55C00FBCBE4 /* ViewController.swift in Sources */,
+				3F7BDC6F225CF19200FBCBE4 /* MapViewController.swift in Sources */,
+				3F7BDC75225CFA1500FBCBE4 /* Store.swift in Sources */,
+				3F7BDC77225CFA4500FBCBE4 /* Item.swift in Sources */,
+				3F7BDC73225CF99600FBCBE4 /* LocationListener.swift in Sources */,
 				3F7BDC41225CE55C00FBCBE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
